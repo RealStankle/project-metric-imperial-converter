@@ -6,7 +6,7 @@ function ConvertHandler() {
       onlyDigitsString = '1';
     }
 
-    const regex = /^\d+(\.)?(\d+)?(\/)?(\d+)?$/;
+    const regex = /^\d+(\.\d+)?(\/\d+(\.\d+)?)?$/;
 
     const testResult = regex.test(onlyDigitsString);
 
